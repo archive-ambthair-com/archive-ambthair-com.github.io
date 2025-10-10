@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg4662"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="ambthair_logo.svg"
+   inkscape:export-filename="/home/robahardy/repo/ambthair.com/assets/ambthair_logo_180x180.png"
+   inkscape:export-xdpi="1078.1951"
+   inkscape:export-ydpi="1078.1951"
+   shape-rendering="crispEdges">
+  <title
+     id="title5165">Ambthair Services logo</title>
+  <defs
+     id="defs4656" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="44.8"
+     inkscape:cx="6.1401157"
+     inkscape:cy="9.0726145"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4664" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4659">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ambthair Services logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-292.76665)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.95014238;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5144"
+       width="4.2404203"
+       height="4.2463264"
+       x="-2.8383158e-09"
+       y="292.75366" />
+    <path
+       id="path4526-3-6-7-5-3"
+       style="fill:#246b61;fill-opacity:1;stroke:none;stroke-width:0.04744251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.3169872,293.93243 V 293.5604 H 3.96875 v 0.37203 H 2.6981632 v 0.57044 h -0.381176 v -0.57044"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       id="path4526-3-6-7-5-3-5-6"
+       style="fill:#246b61;fill-opacity:1;stroke:none;stroke-width:0.04744251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.5875741,296.04059 H 2.331105 v -0.38155 l 1.2564691,0.01 v -0.62005 H 1.9358115 v 0.99208 h -0.381176 v -0.99208 H 0.66522471 v 0.99208 H 0.48875461 0.28404877 v -2.48022 H 1.9358115 v 1.11609 h 1.6517626 m -2.92234939,-0.74406 v 0.74406 H 1.5546355 v -0.74406 z m 2.92234939,0.74406 H 3.96875 v 1.36411 H 3.5875741"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+  </g>
+</svg>

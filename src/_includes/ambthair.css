@@ -1,0 +1,19 @@
+body {
+    padding-top: 3.5rem;
+}
+@media (min-width: 768px) {
+    .twocolumn {
+        columns: 2;
+    }
+}
+.credit {
+    font-style: italic;
+}
+/* article styles */
+@media (min-width: 768px) {
+    #ctatop { 
+        margin-left: 10px;
+        width: 300px;
+        float: right;
+    }
+}

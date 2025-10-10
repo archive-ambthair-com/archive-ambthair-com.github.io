@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" shape-rendering="crispEdges" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<title>Ambthair Services logo</title>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>Ambthair Services logo</dc:title>
+<dc:creator>
+<cc:Agent>
+<dc:title/>
+</cc:Agent>
+</dc:creator>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(0 -292.77)">
+<rect x="-2.8383e-9" y="292.75" width="4.2404" height="4.2463" fill="#fff"/>
+<path d="m2.317 293.93v-0.37203h1.6518v0.37203h-1.2706v0.57044h-0.38118v-0.57044" fill="#246b61"/>
+<path d="m3.5876 296.04h-1.2565v-0.38155l1.2565 0.01v-0.62005h-1.6518v0.99208h-0.38118v-0.99208h-0.88941v0.99208h-0.38118v-2.4802h1.6518v1.1161h1.6518m-2.9223-0.74406v0.74406h0.88941v-0.74406zm2.9223 0.74406h0.38118v1.3641h-0.38118" fill="#246b61"/>
+</g>
+</svg>

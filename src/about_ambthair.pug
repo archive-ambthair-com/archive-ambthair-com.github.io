@@ -1,0 +1,45 @@
+---
+permalink: "| about_ambthair.html"
+title: About us
+metadescription: Find out about Ambthair Services
+---
+extends templates_base.pug
+block content
+  .container
+    script(type="application/ld+json").
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.ambthair.com",
+        "logo": "https://www.ambthair.com/assets/ambthair_logo_180x180.png"
+      }
+
+    h1.mt-4.mb-3 About Ambthair Services
+
+    script(type="application/ld+json").
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "#{global.siteurl}/"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About"
+        }]
+      }
+    nav(aria-label="breadcrumb")
+      ol.breadcrumb
+        li.breadcrumb-item: a(href='./') Home
+        li.breadcrumb-item.active(aria-current='page') About Ambthair
+
+    nav(aria-label="List of pages about Ambthair")
+
+      ul.list-group
+        li.list-group-item: a(href="ambthair_client_list.html") Ambthair client list
+        li.list-group-item: a(href="air_conditioning_consultancy.html") Our consultancy service
+        li.list-group-item: a(href="our_approach.html") The Ambthair approach
+        li.list-group-item: a(href="mike_hardy.html") Mike Hardy

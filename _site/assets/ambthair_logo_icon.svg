@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg4662"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="ambthair_logo.svg"
+   inkscape:export-filename="/home/robahardy/repo/ambthair.com/assets/ambthair_logo_180x180.png"
+   inkscape:export-xdpi="1078.1951"
+   inkscape:export-ydpi="1078.1951"
+   shape-rendering="crispEdges">
+  <title
+     id="title5165">Ambthair Services logo</title>
+  <defs
+     id="defs4656" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="8.2420257"
+     inkscape:cy="7.2627665"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4664"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4659">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ambthair Services logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-292.76665)">
+    <path
+       style="fill:#246b61;fill-opacity:1;stroke:none;stroke-width:2.16722703;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 2.3812499,293.5604 v 0.79375 h 0.5291667 v -0.26459 h 1.0583333 v -0.52916 z m 0,1.05833 v 0.52917 h 1.0583334 v 0.52916 H 2.3812499 v 0.52917 h 1.5875 v -1.5875 h -0.79375 -0.2645833 z"
+       id="rect4528"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#246b61;fill-opacity:1;stroke:none;stroke-width:2.1672163;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 0.26458334,293.5604 v 2.64583 H 0.79375 v -1.05833 h 0.5291667 v 1.05833 H 1.8520833 V 293.5604 Z M 0.79375,294.08956 h 0.5291667 v 0.52917 H 0.79375 Z"
+       id="rect4526"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#246b61;fill-opacity:1;stroke:none;stroke-width:2.62463427;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4560"
+       width="1.0583333"
+       height="0.52916664"
+       x="1.5875"
+       y="294.61871" />
+  </g>
+</svg>

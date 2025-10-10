@@ -1,0 +1,31 @@
+---
+permalink: "| cookie_notice.html"
+title: Cookie Notice
+metadescription: Cookie notice
+---
+extends templates_page.pug
+
+block crumbs
+
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item.active(aria-current='page') #{title}
+
+block maincontents
+  
+  p Ambthair's website uses <a href='https://ico.org.uk/your-data-matters/online/cookies/'>cookies</a> for its operation.  This page describes the cookies in order to comply with EU Directive 2002/58/EC.  Cookies can be blocked using your web browser settings.
+
+  table.table
+    tr
+      th(colspan=3,scope="col") First party cookies
+    tr
+      td _ga, _git, _gid
+      td Google Analytics. This is a software product used for measuring and reporting website visitor data
+      td <a href='https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=en#analyticsjs'>More info</a>
+    tr
+      th(colspan=3,scope="col") Third party cookies
+    tr
+      td Cookies from googleads.g.doubleclick.net or adservice.google.com
+      td Google Adsense embeds non-personalised ads on some pages. The cookies <a href='https://support.google.com/adsense/answer/7670312?hl=en'>allow for</a> frequency capping, aggregated ad reporting, and to combat fraud
+      td <a href='https://support.google.com/adsense/answer/7549925?hl=en'>More info</a>

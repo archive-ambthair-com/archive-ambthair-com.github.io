@@ -1,0 +1,44 @@
+.jumbotron {
+    background-image: url(./assets/ambthair-cad-air-conditioning-design_1x.jpg);
+    background-size: cover;
+    background-color: rgba(222, 208, 174, 1) !important;
+
+    background-image: -webkit-image-set(
+        url(./assets/ambthair-cad-air-conditioning-design_1x.jpg) 1x,
+        url(./assets/ambthair-cad-air-conditioning-design_2x.jpg) 2x
+    );
+
+    background-image: image-set(
+        url(./assets/ambthair-cad-air-conditioning-design_1x.jpg) 1x,
+        url(./assets/ambthair-cad-air-conditioning-design_2x.jpg) 2x
+    );
+}
+.jumbotron .taglines {
+    background-color: rgba(36, 107, 97, 0.4);
+    padding-top: 10px;
+    padding-left: 17px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+.taglines .lead {
+    font-weight: 500;
+}
+@media (min-width: 500px) {
+    .jumbotron .containertext {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+}
+h1.display-4 {
+    color: #246b61;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}

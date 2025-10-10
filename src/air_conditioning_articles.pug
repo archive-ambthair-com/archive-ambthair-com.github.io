@@ -1,0 +1,89 @@
+---
+permalink: "| air_conditioning_articles.html"
+title: Air Conditioning Articles
+metadescription: Ambthair's articles about air conditioning, ventilation and heating
+---
+extends templates_page.pug
+
+block crumbs
+
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "#{global.siteurl}/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Articles"
+      }]
+    }
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item.active(aria-current="page") Articles
+
+block maincontents
+
+  p.lead Ambthair has provided the following articles, which we hope will be particularly useful to building owners and designers.
+
+  .row
+    .col-md-8
+      .card.mb-4
+        .card-body
+          h5.card-title Air Conditioning Key Concepts
+          p.card-text Overview of concepts and terminology
+          a.card-link(href='air_conditioning_key_concepts.html') Q&amp;A &raquo;
+          a.card-link(href='air_conditioning_common_terms.html') Common terms &raquo;
+          a.card-link(href='air_conditioning_units_of_measurement.html') Units of measurement &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='indoor_air_quality_and_covid_19_in_buildings.html') Indoor Air Quality and Covid-19 in Buildings
+          p.card-text A poem about the impact of Covid on building ventilation
+          a.btn.btn-primary(href='indoor_air_quality_and_covid_19_in_buildings.html') Read &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='air_conditioning_design_for_studios.html') Practical Ventilation and Air Conditioning Design for Recording Studios, Control Rooms and Auditoria
+          p.card-text An explanation of the practical application of mass-produced air conditioning equipment to the exacting requirements for studio and auditorium environments.
+          a.btn.btn-primary(href='air_conditioning_design_for_studios.html') Read &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='displacement_vs_mixed_flow_ventilation.html') Consideration of Displacement Ventilation vs Mixed Flow Ventilation, for Building Owners and Designers
+          p.card-text Practical application of mixed flow and displacement ventilation systems, and the implications with reference to centralised plant.
+          a.btn.btn-primary(href='displacement_vs_mixed_flow_ventilation.html') Read &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='multisplit_and_vrv_ventilation.html') A Practical Guide to Multi-split Systems and Variable Refrigerant Volume (VRV) Systems
+          p.card-text The latest development in multi-split systems, and their application, and also the type of terminals available.  The limitations of multi-split systems are also discussed, particularly with reference to length of pipe runs.
+          a.btn.btn-primary(href='multisplit_and_vrv_ventilation.html') Read &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='free_cooling_and_low_energy_systems.html') A Practical Guide to Free Cooling, Alternative Cooling, Night Cooling and Low Energy Systems for Air Conditioning Systems
+          p.card-text A guide to the avoidance of the use of vapour compression equipment and the practical application of low energy systems.  The article also discusses the implication of the Kyoto Protocol.
+          a.btn.btn-primary(href='free_cooling_and_low_energy_systems.html') Read &raquo;
+
+      .card.mb-4
+        .card-body
+          h5.card-title: a(href='energy_efficient_heating_and_hot_water_systems.html') A Practical Guide to the Reduction of Energy Costs and Carbon Emissions for Existing Heating and Hot Water Systems in Commercial and Domestic Buildings, Calculation of Payback Costs and Consideration of the Generation of On-site Electricity
+          p.card-text A discussion on methods of replacing existing heating systems in domestic and commercial buildings with lower running cost and higher efficiency systems that are available.  On site generation of electricity both in domestic and commercial buildings is also considered as well as the savings that may be made by improved insulation.  Methods of calculation of financial payback and carbon payback times are shown for these systems as well as grants available.
+          a.btn.btn-primary(href='energy_efficient_heating_and_hot_water_systems.html') Read &raquo;
+          h5.mt-3.card-title How to calculate financial and carbon payback on:
+          a.card-link(href='calculate_financial_and_carbon_payback_from_insulating_multiple_buildings.html') Insulating multiple buildings &raquo;
+          a.card-link(href='calculate_financial_and_carbon_payback_from_insulating_single_building.html') Insulating a single building &raquo;
+
+    .col-md-4
+      .card.text-center.border-primary
+        h5.card-header These articles are provided by Ambthair Services
+        .card-body
+          p.card-text.text-left We provide air conditioning design and consultancy, specialising in studios and low energy systems.
+          a.btn.btn-primary(href="contact.html") Contact us
+

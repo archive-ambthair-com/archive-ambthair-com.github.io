@@ -1,0 +1,67 @@
+mixin cta(id)
+    aside.card(id=id)
+      h5.card-header This article is provided by Ambthair&nbsp;Services
+      .card-body
+        p.card-text We provide air conditioning design and consultancy, specialising in studios and low energy systems.
+        a.btn.btn-primary(href="contact.html") Contact us
+
+doctype html
+html.h-100(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description' content=`${metadescription}`)
+        link(rel='icon' href='/assets/ambthair_logo.min.svg' sizes='any')
+        link(rel='apple-touch-icon' href='/assets/ambthair_logo_180x180.png' sizes='180x180')
+        title #{title} | Ambthair Services
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        style(type='text/css')
+            include:clean-css _includes/ambthair.css
+        block pagestyles
+            //- block for page specific styles
+        link(rel='stylesheet' href="/styles/bootstrap.purge.min.css")
+        script (function(){"use strict";function scroller(){scrollBy(0,-100)}window.addEventListener("hashchange",scroller);if(window.location.hash){window.addEventListener('load',scroller)}})();
+        //- script(async src="https://www.googletagmanager.com/gtag/js?id=UA-1841515-1")
+        //- script (function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'ad_storage':'denied','analytics_storage':'denied','functionality_storage':'denied','personalization_storage':'denied','security_storage':'denied',});gtag('set',{'ads_data_redaction':!0,'allow_ad_personalization_signals':!1,'allow_google_signals':!1,'restricted_data_processing':!0});gtag("js",new Date());gtag("config","UA-1841515-1",{'link_attribution':!0})})()
+        if (showAds)
+            script(data-ad-client="ca-pub-4048012931092682" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+            script (function(){(adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;})();
+
+    body.d-flex.flex-column.h-100
+        header
+            nav.navbar.fixed-top.navbar-expand-md.navbar-dark.bg-primary
+                .container
+                    a.navbar-brand(href='/') Ambthair Services
+                    button.navbar-toggler.navbar-toggler-right(type='button' data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+                        span.navbar-toggler-icon
+
+                    .collapse.navbar-collapse#navbarNav
+                        ul.navbar-nav.ml-auto
+                            li.nav-item
+                                a.nav-link(href='/contact.html',class={active: page.fileSlug == 'contact'}) Contact us
+                            li.nav-item.dropdown
+                                a.nav-link.dropdown-toggle#navbarAboutLink(href='/about_ambthair.html' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") About Ambthair 
+                                .dropdown-menu.dropdown-menu-right(aria-labelledby="navbarAboutLink")
+                                    a.dropdown-item(href='/ambthair_client_list.html',class={active: page.fileSlug == 'ambthair_client_list'}) Client list
+                                    a.dropdown-item(href='/air_conditioning_consultancy.html',class={active: page.fileSlug == 'air_conditioning_consultancy'}) Consultancy
+                                    a.dropdown-item(href='/our_approach.html',class={active: page.fileSlug == 'our_approach'}) The Ambthair approach
+                                    a.dropdown-item(href='/mike_hardy.html',class={active: page.fileSlug == 'mike_hardy'}) Mike Hardy
+                            li.nav-item.dropdown
+                                a.nav-link.dropdown-toggle#navbarArticleLink(href='/air_conditioning_articles.html' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Articles 
+                                .dropdown-menu.dropdown-menu-right(aria-labelledby="navbarArticleLink")
+                                    a.dropdown-item(href='/air_conditioning_key_concepts.html',class={active: page.fileSlug == 'air_conditioning_key_concepts'}) Key concepts
+                                    a.dropdown-item(href='/air_conditioning_articles.html',class={active: page.fileSlug == 'air_conditioning_articles'}) More articles
+
+        .mb-3
+            block content
+                p default content block - override
+
+        footer.py-4.bg-primary.mt-auto
+            .container
+                block footer
+                    p.text-center.text-white Copyright © 2024 Ambthair Services Ltd.
+
+        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js' integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' crossorigin='anonymous')
+        //- script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI' crossorigin='anonymous')

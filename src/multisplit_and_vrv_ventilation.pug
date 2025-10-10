@@ -1,0 +1,210 @@
+---
+permalink: "| multisplit_and_vrv_ventilation.html"
+title: Multisplit and VRV Ventilation
+metadescription: This article discusses the latest developments of multi-split systems; their application, and limitations
+---
+extends templates_article.pug
+
+block headingandcrumbs
+
+  h1.mt-4.mb-3
+    | A Practical Guide to Multi-split Systems and Variable Refrigerant Volume (VRV) Systems
+    br
+    small
+      | by 
+      a#mh(href='mike_hardy.html') Mike Hardy
+
+  +articleRichDataBreadcrumb
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item: a(href='air_conditioning_articles.html') Articles
+      li.breadcrumb-item.active(aria-current="page") Multisplit and VRV Ventilation
+
+block maincontents
+  h2 Contents
+  ul
+    li
+      a(href='#intro') Introduction
+    li
+      a(href='#multi') Multi-split Systems
+    li
+      a(href='#refrigerant') Refrigerant Pipework Limitations
+    li
+      a(href='#indoor') Indoor Units
+    li
+      a(href='#outside') Outside Air
+    li
+      a(href='#applications') Applications
+  hr
+  h2#intro Introduction
+  p
+    | There are many manufacturers of multi-split systems and VRV systems throughout the
+    | world and it is important that the designer&nbsp;/ specifier&nbsp;/ building owner has some practical
+    | understanding of their uses and limitations.   These type of systems vary considerably
+    | from manufacturer to manufacturer particularly with reference to noise levels and the
+    | type of indoor units used.   This is particularly the case with VRV systems where it is
+    | often assumed, quite erroneously, that there are few manufacturers of these systems
+    | and they are all similar&nbsp;- this is not the case.
+  p
+    | The above systems have come of age in the last 5-10 years and are particularly
+    | popular because they require less outdoor plant space than conventional systems, are
+    | less disruptive to fit in existing buildings (particularly when occupied), are able to cool
+    | and heat through common pipework and in the case of VRV systems have inherent
+    | heat recovery.
+  p
+    | These systems all use refrigerant as the cooling&nbsp;/ heating medium rather than chilled
+    | water&nbsp;/ hot water as is used in conventional hydraulic systems circulated by pumps.
+  p
+    | Condensing units are used externally when cooling only is required and heat pumps are
+    | used externally when both cooling and heating are required.
+  h2#multi Multi-split Systems
+  p
+    | The traditional &lsquo;split system&rsquo; is also known colloquially and more descriptively as a
+    | &apos;one to one split system&apos;, meaning one external condensing unit&nbsp;/ heat pump is
+    | connected by refrigerant pipework to one indoor cooling&nbsp;/ cooling and heating unit.
+  p
+    | The multi-split system uses one external unit which is connected to several indoor
+    | units.   The multi-split system takes a number of different forms and it is essential the
+    | designer&nbsp;/ specifier understands the limitations of each type of system.
+  dl
+    dt Master and slave system
+    dd
+      p
+        | One off external condensing unit&nbsp;/ heat pump unit is connected to several indoor units as
+        | is typical for a mult-split system.   One of the indoor units is provided with
+        | temperature controller&nbsp;/ sensor and acts as master and the other unit(s) acts as slaves.
+        | All indoor units will therefore function as the master setting.   Master and slave units
+        | are suitable for single areas, single rooms or even multiple rooms with very similar heat
+        | gains&nbsp;/ losses.   They are not suitable for individual areas&nbsp;/ rooms which have different
+        | heat gain&nbsp;/ loss characteristics because the master control will sense air temperature for
+        | one area&nbsp;/ room only and the areas&nbsp;/ rooms will overcool or overheat.
+    dt Zoned control units
+    dd
+      p
+        | As previously one off external&nbsp;/ heat pump unit is connected to several indoor unit.
+        | With these systems each indoor unit has its own individual temperature controller and
+        | thus each unit functions as required to maintain the individual room temperature.
+        | With these systems whilst there is individual control the limitation is that if cooling is
+        | required in one area it is not possible to provide heating in a different area served by
+        | the same system because the compressors will function in only cooling mode or heating
+        | mode.
+    dt Variable refrigerant volume (VRV) systems
+    dd
+      p
+        | Again one off condensing unit/heat pump is connected to several indoor units.   VRV
+        | systems are able to provide total versatility and each indoor unit may cool&nbsp;/ heat
+        | independently of each other.   In fact, if part of a building requires cooling and other
+        | areas require heating the heat rejected for the required cooling contributes or is
+        | recovered to provide heating in the other area.
+  h2#refrigerant Refrigerant Pipework Limitations
+  p
+    | The maximum lengths of pipework it is possible to use for all mass produced
+    | refrigeration equipment is determined by the the compressor.   All &lsquo;split&rsquo; systems
+    | therefore have a maximum vertical and total refrigeration pipework length allowable.
+    | This is a considerable disadvantage compared with hydraulic systems which are
+    | pumped and as the pump may be sized to suit the system, then theoretically, the
+    | hydraulic pipework may be run almost infinite distances.   It is important the
+    | designer&nbsp;/ building owner is aware of these limitations.   Each manufacturer specifies
+    | both the size of the pipework required for their system and the maximum permissible
+    | vertical and total refrigerant pipework runs.
+  p
+    | Moreover it may 
+    em not
+    |  be assumed that these distances will be similar between
+    | manufacturers for similar capacity equipment this is often not the case.
+    | However a nominal guideline is as follows:
+  ul
+    li Up to 5 kW of cooling maximum of 25 metres
+    li
+      | Up to 7 kW of cooling maximum of 25 metres to 50 metres (varies widely between
+      | manufacturers)
+    li Up to 15 kW of cooling maximum of 30 metres to 50 metres
+  p
+    | VRV systems and zoned systems generally up to 50 metres vertically and 100mm
+    | overall.  Typically one outdoor unit may be connected to up to a maximum of 8 indoor
+    | units.
+  p
+    | (Some manufacturers produces a zoned system which allows up to 16 indoor units to
+    | be connected to one outdoor unit.)
+  h2#indoor Indoor Units
+  p
+    | All indoor units used with multi-split systems provide air distribution by mixed flow
+    | and come in various forms:
+  ol(style='list-style: lower-alpha;')
+    li Floor standing units
+    li Units mounted on walls at high level
+    li Unit mounted below a ceiling
+    li
+      | Cassette units which recess within a false ceiling and terminate with a grille flush
+      | with the false ceiling  through which air is supplied and exhausted to the space.
+    li
+      | Ducted units or &lsquo;void pack&rsquo; units mounted above a false ceiling and are generally
+      | connected to ductwork terminating in the ceiling with supply and exhaust grilles to the
+      | space.  These ducted units may take the form of &lsquo;low static&rsquo; pressure units or &lsquo;high
+      | static&rsquo; pressure units.
+  p
+    | With reference to (e), the size and type of the fan motors in these units  vary considerably from
+    | manufacturer to manufacturer and this determines the extent of the ductwork allowable
+    | which is a function of the static pressure of the fan.  Silencers may also be provided
+    | within the ductwork for very low noise levels required in such spaces as recording
+    | studios, but again the fan static pressure available has to be checked carefully so the
+    | pressure drop through the silencers may be overcome by the fan.
+  h2#outside Outside Air
+  p
+    | The introduction of outside air to all &lsquo;split&rsquo; systems is often a problem (typically 8 L/S
+    | per person is required).   To overcome this some manufacturers provide a heat recovery
+    | unit which provides outside air to the air conditioned space independently of the indoor
+    | units.   With these systems an equal quantity of outside air and exhaust air is supplied
+    | and then exhausted from the air conditioned space.   The supply and exhaust air passes
+    | over a heat exchanger so heat is recovered from the exhaust air and used to heat or
+    | cool the outside air.   This solution has the limitation that air is introduced to the space
+    | at two different temperatures, i.e. that of the indoor unit and that of the heat recovery
+    | unit.  If possible it is always ideal to introduce outside air to the indoor unit.   It is
+    | possible to introduce outside air to the following indoor units:
+  dl
+    dt Cassette units
+    dd
+      p
+        | Some manufacturers provide cut outs on the side of the unit so outside air may be
+        | ducted into the side of the unit above the false ceiling.   The length of the outside duct
+        | has to be carefully considered and if over a certain length may have to be fan assisted.
+        | Most manufacturers publish maximum permissible lengths and&nbsp;/ or pressure drops.  As
+        | the outside air will bypass the cassette filter the ductwork should also be provided with
+        | a filter.
+    dt Ducted unit
+    dd
+      p
+        | Provision may always be made for introducing outside air into the return air ductwork.
+  h2#applications Applications
+  p
+    | The application of multi-split, zoned and VRV systems should be carefully
+    | considered.   Whilst the VRV systems are the most versatile the capital outlay for the
+    | equipment is far higher than for the other systems.
+  dl
+    dt Multi-split and zoned systems
+    dd
+      p
+        | With most of these systems generally it is possible to provide individual control to each
+        | indoor unit (the exception being the master and slave system previously described).
+        | The sensor will provide cooling or heating as and when required to maintain the set
+        | point temperature selected.
+      p
+        | The systems are therefore applicable when there is a clearly defined heating and
+        | cooling season i.e. cooling only required throughout the building or heating only
+        | required throughout the building.  With the increased prevalence of heat producing I.T.
+        | equipment within buildings this needs some consideration because if one particular part
+        | of a building requires cooling 12 months of the year this system would not be
+        | appropriate.   The solution in this case would be either to use a V.R.V heat recovery
+        | system or have an independent system dedicated to that part of the building.
+      p
+        | With the larger zoned systems typically it would be possible to connect up to 16 indoor
+        | units to one external unit.   With most manufacturers the units may be mixed i.e. an
+        | assortment of ducted, cassette, wall, floor, and ceiling units connected to the one
+        | outdoor unit.
+    dt VRV systems
+    dd
+      p
+        | These systems are the most versatile of the multi-split systems as the indoor units may
+        | function individually and will heat or cool individually.   These systems are widely used
+        | in commercial offices.

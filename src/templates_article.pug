@@ -1,0 +1,105 @@
+extends templates_base.pug
+mixin articleRichDataBreadcrumb()
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "#{global.siteurl}/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Articles",
+        "item": "#{global.siteurl}/air_conditioning_articles.html"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "#{title}"
+      }]
+    }
+mixin energyRichDataBreadcrumb()
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "#{global.siteurl}/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Articles",
+        "item": "#{global.siteurl}/air_conditioning_articles.html"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Energy Efficient Heating and Hot Water Systems",
+        "item": "#{global.siteurl}/energy_efficient_heating_and_hot_water_systems.html"
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "name": "#{title}"
+      }]
+    }
+mixin articleRichData()
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "#{title}",
+      "image": "#{global.siteurl}/assets/ambthair-cad-air-conditioning-design_16_9.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Mike Hardy"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ambthair Services",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "#{global.siteurl}/assets/ambthair_logo_180x180.png"
+        }
+      }
+    }
+
+block pagestyles
+  style(type="text/css")
+    :clean-css
+      article h1 {
+        font-size: 1.5rem;
+      }
+      article h2 {
+        font-size: 1.4rem;
+      }
+      article h3 {
+        font-size: 1.3rem;
+      }
+      article h4 {
+        font-size: 1.2rem;
+      }
+      article h5 {
+        font-size: 1.1rem;
+      }
+      article blockquote {
+        margin-left: 2rem;
+      }
+
+block content
+  article.container
+
+    +articleRichData
+    block headingandcrumbs
+      p headingandcrumbs
+
+    main
+      +cta('ctatop')
+
+      block maincontents
+        p maincontents
+
+      +cta()

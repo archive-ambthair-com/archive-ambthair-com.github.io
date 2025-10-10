@@ -1,0 +1,30 @@
+{
+  "name": "www.ambthair.com",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "eleventy --input=src --formats=pug",
+    "build:css": "postcss 'src/styles/bootstrap.min.css' --output src/styles/bootstrap.purge.min.css",
+    "start": "eleventy --input=src --formats=pug --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aws s3 cp _site s3://www.ambthair.com/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rahardy@bitbucket.org/rahardy/ambthair.com.git"
+  },
+  "author": "Rob Hardy",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/rahardy/ambthair.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "eleventy-plugin-typeset": "github:liamfiddler/eleventy-plugin-typeset",
+    "jstransformer-clean-css": "^2.1.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^11.0.0",
+    "purgecss": "^5.0.0"
+  }
+}

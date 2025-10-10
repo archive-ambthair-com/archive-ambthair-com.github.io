@@ -1,0 +1,36 @@
+extends templates_base.pug
+mixin aboutRichDataBreadcrumb()
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "#{global.siteurl}/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "#{global.siteurl}/about_ambthair.html"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "#{title}"
+      }]
+    }
+block content
+  .container
+
+    block title
+      h1.mt-4.mb-3 #{title}
+
+    block crumbs
+      p crumbs
+
+    main
+
+      block maincontents
+        p maincontents
+

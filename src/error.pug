@@ -1,0 +1,17 @@
+---
+permalink: "| error.html"
+title: Error
+metadescription: Error page
+---
+extends templates_page.pug
+
+block crumbs
+
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item.active(aria-current='page') Error
+
+block maincontents
+
+  p.lead The page you requested cannot be found.

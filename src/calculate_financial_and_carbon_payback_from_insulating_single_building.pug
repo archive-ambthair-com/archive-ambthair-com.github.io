@@ -1,0 +1,77 @@
+---
+permalink: "| calculate_financial_and_carbon_payback_from_insulating_single_building.html"
+title: Single Building | Calculate Financial and Carbon Payback from Insulation
+metadescription: How to calculate financial and carbon payback after insulating a single building
+---
+extends templates_article.pug
+
+block headingandcrumbs
+
+  h1.mt-4.mb-3
+    | Calculating Financial and Carbon Payback from Insulation
+    br
+    small   
+      | by 
+      a#mh(href='mike_hardy.html') Mike Hardy
+
+  +energyRichDataBreadcrumb
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item: a(href='air_conditioning_articles.html') Articles
+      li.breadcrumb-item: a(href='energy_efficient_heating_and_hot_water_systems.html') Energy Efficient Heating and Hot Water Systems
+      li.breadcrumb-item.active(aria-current="page") Calculate Financial and Carbon Payback
+
+  ul.nav.nav-tabs
+    li.nav-item: a.nav-link.active Single building
+    li.nav-item: a.nav-link(href="calculate_financial_and_carbon_payback_from_insulating_multiple_buildings.html") Multiple buildings
+
+block maincontents
+
+  p.mt-3
+    | Assuming the condensing boiler is in condensing mode all the time
+    | then the likely improved efficiency is going to be from an original
+    | value of around 65 to 70% to and improved efficiency of about 95%.
+  p
+    | So the calculation for a specific property is simply a percentage
+    | calculation.
+  p
+    | If the annual fuel bill for the boiler is say &pound;1,000 and we
+    | assume the boiler is 65% efficient then the bill would be, if the
+    | boiler were 100% efficient&nbsp;&ndash; 1,000&nbsp;&times; 65/100&nbsp;= &pound;650.
+  p
+    | So if we assume the new boiler is 95% efficient in condensing mode
+    | then the revised annual bill would be 650/0.95 = &pound;684.00
+  p An annual saving of &pound;316.00.
+  p
+    | There will also be a further saving if the combi boiler is replacing
+    | an indirect storage cylinder&nbsp;&ndash; the saving would be based on heat
+    | lost from the cylinder which in itself would be dependent on the
+    | thickness of insulation. (See 
+    a#ti(href='energy_efficient_heating_and_hot_water_systems.html#mozTocId740544')
+      | thermal
+      | insulation
+    | ).
+  p
+    | So if the cost of the supply and installation of the new boiler was
+    | &pound;3,160 then this would be a 10 year financial payback.
+  p To determine carbon dioxide savings:
+  p
+    | The saving of &pound;316 then may be converted back to kWh from the fuel
+    | bill simply for gas and electricity.
+  p
+    | This is not quite so straightforward for oil because this is
+    | normally charged by the litre so assuming that l
+    | litre of oil provides 11.9 kWh per litre the kWh may then be
+    | calculated.
+  p
+    | The conversion factors of energy to carbon dioxide emissions are as
+    | follows (source: Carbon Trust and Defra):
+  p Energy conversion to carbon dioxide (gross calorific value basis).
+  ul
+    li Grid electricity &ndash; kWh &ndash; 0.537 KG carbon dioxide per unit.
+    li Natural gas &ndash; kWh &ndash; 0.185 KG carbon dioxide per unit.
+    li Fuel Oil &ndash; kWh &ndash; 0.268 KG carbon dioxide per unit.
+  p
+    | Example: 1,000 kWh of gas will produce 0.185&nbsp;&times; 1,000&nbsp;=
+    | 185kg of carbon dioxide.

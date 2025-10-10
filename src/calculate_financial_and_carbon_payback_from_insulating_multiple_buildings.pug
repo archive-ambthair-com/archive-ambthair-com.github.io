@@ -1,0 +1,610 @@
+---
+permalink: "| calculate_financial_and_carbon_payback_from_insulating_multiple_buildings.html"
+title: Multiple Buildings | Calculate Financial and Carbon Payback from Insulation
+metadescription: How to calculate financial and carbon payback after insulating multiple buildings
+---
+extends templates_article.pug
+block headingandcrumbs
+
+  h1.mt-4.mb-3
+    | Calculating Financial and Carbon Payback from Insulation
+    br
+    small
+      | by 
+      a#mh(href='mike_hardy.html') Mike Hardy
+
+  +energyRichDataBreadcrumb
+  nav(aria-label="breadcrumb")
+    ol.breadcrumb
+      li.breadcrumb-item: a(href='./') Home
+      li.breadcrumb-item: a(href='air_conditioning_articles.html') Articles
+      li.breadcrumb-item: a(href='energy_efficient_heating_and_hot_water_systems.html') Energy Efficient Heating and Hot Water Systems
+      li.breadcrumb-item.active(aria-current="page") Calculate Financial and Carbon Payback
+
+  ul.nav.nav-tabs
+    li.nav-item: a.nav-link(href="calculate_financial_and_carbon_payback_from_insulating_single_building.html") Single building
+    li.nav-item: a.nav-link.active Multiple buildings
+
+block maincontents
+  p.mt-3
+    | For your property it is possible to calculate approximate figures
+    | for your own situation.
+  p
+    | To relate this to your own property/properties firstly compare your fuel
+    | bills in summer and mid-winter.
+  p
+    | This will give an indication of the cost of heating the hot water
+    | used for baths, taps etc. and heating for the building fabric&nbsp;&ndash;
+    | and it is also likely to concentrate the mind on such items as hot
+    | water usage and for you to consider ways in which it is possible to
+    | have hot water available when required and yet not have to store it for
+    | such long periods of time through the day&nbsp;&ndash; it did mine!
+  p
+    | An allowance will have to be made for other items such as cooking if
+    | the same fuel is used.
+  p
+    | Once the approximate heating for the building fabric has been
+    | isolated then break down the areas of heat loss in winter, these will
+    | be elements of the building exposed directly to outside air in winter.
+  p The areas are likely to be external glazing, walls, roof and floor.
+  p
+    | To assess the loss through a specific building calculate the area of
+    | walls, roof space, glazing and floor.
+  p
+    | This will mean that the proportion of heat loss of each element may
+    | be estimated and related to the fuel bill (after the deduction of hot
+    | water heating).
+  p
+    | But each element area firstly needs to be multiplied by the relevant
+    | thermal transmittance or U-Value and then proportioned to the fuel bill.
+  p
+    | The new U-Value may then be estimated after the addition of
+    | insulation and the calculation may them be made of the approximate cost
+    | saving for the improved insulation to that element.
+  p
+    | Some typical U-Values are given below&nbsp;&ndash; all figures are
+    | watts/metre
+    sup 2
+    | K.
+  table.table.table-striped.table-bordered.table-sm
+    tbody
+      tr
+        th(colspan='2',scope="col") Single glazing
+      tr
+        td For glazing without frames
+        td 5.6
+      tr
+        td For glazing with wooden frames
+        td 5.0
+      tr
+        td For glazing with aluminium frames
+        td 6.4
+      tr
+        th(colspan='2',scope="col") Double glazing
+      tr
+        td Double glazing with 25mm or more airspace
+        td 2.9
+      tr
+        td Double glazing with 12mm air space
+        td 2.1
+      tr
+        td Double glazing with 6mm air space
+        td 2.5
+      tr
+        td Double glazing with 3mm air space
+        td 3.0
+      tr
+        td Roof glazing skylight
+        td 6.6
+      tr
+        th(colspan='2',scope="col") Roofs: 35&deg; pitched
+      tr
+        td
+          | 10mm tile, loft space and 10mm plasterboard i.e. completely
+          | uninsulated
+        td 2.6
+      tr
+        td
+          | 10mm tile, loft space, 25mm glass fibre quilt and 10mm
+          | plasterboard
+        td 0.99
+      tr
+        th(colspan='2',scope="col") Roofs: Flat
+      tr
+        td 19mm asphalt, 75mm screed, 150mm cast concrete, 13mm plaster
+        td 1.9
+      tr
+        th(colspan='2',scope="col") Walls
+      tr
+        td 105mm brickwork, 10mm plasterboard
+        td 2.7
+      tr
+        td 220mm as above
+        td 2.0
+      tr
+        td 220mm as above with 25mm air gap
+        td 1.56
+      tr
+        td
+          | 200mm heavyweight concrete block, 25mm air gap 10mm
+          | plasterboard
+        td 1.8
+      tr
+        td
+          | 200mm lightweight concrete block, 25mm air gap, 10mm
+          | plasterboard
+        td 0.68
+      tr
+        td 200mm cast concrete unplastered
+        td 3.1
+
+  table.table.table-striped.table-bordered.table-sm
+    thead
+      tr
+        th(colspan='3',scope="col") Solid Floors
+      tr
+        th(scope="col") Area
+        th(scope="col") 4 edges exposed
+        th(scope="col") 2 perpendicular edges exposed
+    tbody
+      tr
+        td 60m&nbsp;&times; 60m
+        td 0.15
+        td 0.08
+      tr
+        td 60m&nbsp;&times; 20m
+        td 0.26
+        td 0.15
+      tr
+        td 40m&nbsp;&times; 40m
+        td 0.21
+        td 0.12
+      tr
+        td 40m&nbsp;&times; 20m
+        td 0.28
+        td 0.16
+      tr
+        td 20m&nbsp;&times; 20m
+        td 0.36
+        td 0.21
+      tr
+        td 20m&nbsp;&times; 10m
+        td 0.46
+        td 0.28
+  h2
+    | Proportioning the Fuel Bill and Calculating Pay Back
+  p
+    | The annual fuel bill incurred may now be proportioned using the
+    | above information and the approximate payback of improved insulation
+    | may be calculated.
+  p
+    | The Sutherland tables provides information on the cost of space and
+    | water heating for domestic buildings using various fuels and for
+    | 2-bedroom terraced houses, 3&ndash;bedroom semi and 4-bedroom detached.
+  p
+    | Their figures for October 2008 show a figure of &pound;2,365.00 for an oil
+    | boiler providing heating and hot water to a 4 bedroom detached house.
+  p
+    | Let us assume that &pound;365 of this energy is for hot water and this may
+    | be verified by the energy bill for summer when heating is not required.
+  p
+    | Let us assume that 10% of the heat is lost through ventilation and
+    | cold air entering the house in winter.
+  p
+    | Then the remainder which is the heat losses through the fabric of
+    | the house will be costing &pound;1800 per year in fuel bills.
+  p
+    | If we assume a 125 metre
+    sup 2
+    |  double storey house with
+    | a roof space area of 125 metre
+    sup 2
+    |  consisting of 10mm tile,
+    | loft space and 10mm plasterboard a 220mm wall with a 25mm air gap and
+    | single glazing with wooden frames of 36 metre
+    sup 2
+    |  and the
+    | building has four exposed edges.
+  p
+    | The proportions are as follow (as the numbers are for proportioning
+    | only, the units are not shown):
+  dl
+    dt Roof
+    dd
+      | 125 metre
+      sup 2
+      | &nbsp;&times; U-Value of 2.6&nbsp;= 325
+    dt Floor
+    dd
+      | 125 metre
+      sup 2
+      | &nbsp;&times; U-Value of 0.36&nbsp;= 45
+    dt Walls
+    dd
+      | 156 metre
+      sup 2
+      | &nbsp;&times; U-Value of 1.56&nbsp;= 243.36
+    dt Glazing
+    dd
+      | 36 metre
+      sup 2
+      | &nbsp;&times; U-Value of 5&nbsp;= 180
+  p
+    | The figures add up to 793.36 so the proportion of cost per element
+    | related to an &pound;1800 fuel bill for heat losses through the fabric of the
+    | building:
+  dl
+    dt Roof
+    dd 325/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;737
+    dt Floor
+    dd 45/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;102
+    dt Walls
+    dd 243.36/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;552
+    dt Glazing
+    dd 180/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;409
+  h2 Cost Effect of Improving the Insulation to the Roof
+  p
+    | Simply turn upside down the U-Value to obtain the R-Value, i.e. the
+    | figure for the roof becomes 1/2.6&nbsp;= 0.38 and add the R-Value for the
+    | new insulation and turn upside down again to find the new U-Value.
+  p
+    | The R-Value if not known is equal to the thickness in metres being
+    | applied divided by the thermal conductivity of the material &ndash; the
+    | latter figure will be given by the insulation manufacturer in units of
+    | watts per metre &deg;C.
+  p
+    | So assuming we are going to apply 270mm of roof insulation with a
+    | conductivity value of 0.04 watts per metre K,&nbsp;the R-Value would be
+    | 0.27/0.04&nbsp;= 6.75 metre
+    sup 2
+    |  K per watt.
+  p
+    | Add this to the 0.38 R value above this becomes&nbsp;&ndash; 0.38&nbsp;+
+    | 6.75&nbsp;= 7.13 metre
+    sup 2
+    |  K per watt.
+  p
+    | So the final U-Value is this figure turned upside down&nbsp;= 0.14
+    | watts/metre
+    sup 2
+    | K which is a huge improvement on the
+    | original figure.
+  p
+    | In terms of money saved and again related to the &pound;1800 fuel bill for
+    | heat losses through the building fabric of the building this
+    | would be:
+  p
+    | The new proportioned figure for the roof which came to 325 before
+    | now after adding the insulation comes to 125&nbsp;&times; the new U-Value of
+    | 0.14&nbsp;= 17.5.
+  p
+    | So the new financial cost of fuel due to heat loss through the
+    | roof is now&nbsp;- 17.5/793.36&nbsp;&times; &pound;,1800&nbsp;= &pound;39 (compared with an uninsulated
+    | roof financial cost of &pound;737 per year.)
+  p
+    | An exceptional saving per year, in this case, because the original
+    | roof had no insulation at all so the addition of 270mm thick insulation
+    | has made a huge financial saving on fuel cost.
+  h2 Cost for Loft Insulation Material and Payback
+  p
+    | The cost of insulation material varies hugely at present and
+    | consequently, of course, so do financial payback periods&nbsp;&ndash; the
+    | cost of materials is driven by the energy suppliers having to hit
+    | targets for carbon emissions.
+  p
+    | The general advice is that your energy supplier will put their
+    | nominated insulation installer in touch with the building owner for a
+    | survey and quote.
+  p
+    | But this is not necessary the cheapest way especially if the
+    | installation is going to be DIY.
+  p
+    | At the moment for example B&amp;Q in conjunction with British Gas
+    | are offering 200mm thick&nbsp;&times; 3.6 metre
+    sup 2
+    | of&nbsp;encapsulated fibre glass for &pound;3 a roll instead of the usual
+    | &pound;34.88 per roll&nbsp;-&nbsp;so less than a tenth of the normal cost.
+  p
+    | So supply only for 125 metre
+    sup 2
+    |  would be 35 rolls at
+    | &pound;3&nbsp;= &pound;105.00.
+  p
+    | As we have seen before the annual energy saving would be (&pound;737 -
+    | &pound;39)&nbsp;= &pound;698 per year or &pound;58 per month then the financial payback for
+    | the above example would be less than 2 months.
+  p
+    | The total cost assuming a subcontractor installs the work insulation
+    | for &pound;200&nbsp;= &pound;200&nbsp;+ &pound;105&nbsp;= &pound;305.
+  p So financial payback then is just over 5 months.
+  p
+    | However the insulation we are buying is 200mm thick insulation
+    | instead of the 270mm insulation so it won&rsquo;t be quite as fast a payback
+    | as that but not far behind.
+  p
+    | An approximation then of the revised figure would be 270mm/200mm x
+    | &pound;39&nbsp;= &pound;52.65.
+  p
+  p
+    | So still a massive saving of (&pound;738&nbsp;- &pound;53.66)&nbsp;= &pound;684.34 per
+    | annum, or around &pound;57 per month saving.
+  p
+    | At a cost of &pound;105 for DIY insulation would be a payback period of 2
+    | months.
+  p
+    | At a cost of &pound;305 for the work installed by a sub&ndash;contractor would
+    | be a financial payback of about 6 months.
+  p
+    | The above is using fibre glass which is encapsulated and suitable
+    | for 400mm centre joists.
+  p
+    | An alternative to fibre glass is rock wool or sheep&apos;s wool&nbsp;&ndash; the
+    | latter is the most adaptable for cutting and carving around
+    | in a roof space but the most expensive.
+  p
+    | So considering sheep&apos;s wool insulation, this is likely to be the
+    | most expensive insulation but claimed to be the most sustainable by
+    | their suppliers&nbsp;&ndash; I will let them put their own case below as to
+    | why you should pay more for using this insulation.
+  blockquote
+    p
+      | The key advantages of sheep wool insulation compared to man-made
+      | are
+    ul
+      li
+        | A better insulator compared to mineral wools, requiring 10%
+        | less gauge to achieve the same insulating factor.
+      li
+        | Controls condensation&nbsp;- wool absorbs and releases
+        | moisture; wool can absorb up to 40% of its own weight and remain dry.
+      li
+        | Glass fibre thermal performance deteriorates dramatically when
+        | any moisture is present, wools performance is not affected.
+      li
+        | Wool absorbs harmful gasses, e.g. formaldehyde and locks them up
+        | permanently, man-made emits gasses!
+      li
+        | Wool will last for the life of the building due to the
+        | resilience of wool, glass fibre compacts and requires topping up every
+        | 10 years.
+      li
+        | Wool is truly sustainable; a yearly clip of wool is available
+        | as a by-product of the livestock farming.
+      li
+        | Wool is a &quot;Carbon sink&quot;, it actually locks up CO
+        sub 2
+        | ,
+        | man-made pollutes CO
+        sub 2
+        |  in its manufacture.
+      li
+        | Very low energy required in its manufacture, only 15% of the
+        | energy required to produce mineral wools.
+      li Biodegradable at the end of its life.
+      li
+        | Safe to handle, no skin or respiratory problems typical of
+        | mineral wools.
+      li Supports economic deprived areas of the UK.
+      li
+        | Black Mountain only uses virgin UK wool, typically hill farmed
+        | Swaledales and Welsh Black Face, hence the product is truly sustainable
+        | and environmentally conscious and totally safe requiring no protective
+        | clothing to install.
+  p
+    | The heat loss calculation in the example above uses a figure of 0.04
+    | watts per metre conductivity for both fibre glass and sheep wool&nbsp;&ndash;
+    | the suppliers of sheep wool state a conductivity figure of 0.044 which
+    | is why they are claiming 10% improved performance.
+  p
+    | I am not at all sure of the source of their information they have
+    | used that assumes fibre glass will require topping up every 10 years as
+    | stated above&nbsp;- I agree more with the figure of lasting for 40
+    | years as stated on the Energy Savings Trust website.
+  p
+    | This assumes that it is looked after and not crushed down with heavy
+    | items in the loft which will reduce the insulation value of the
+    | material.
+  p
+    | The Sustainability Centre&rsquo;s price for 100mm thick sheep&apos;s wool with an
+    | area of 3 metre
+    sup 2
+    |  is &pound;21.11.
+  p
+    | So we would have to double up on the sheets for 200mm thickness to
+    | get the same insulation value as the 200mm thick fibre glass&nbsp;&ndash; the
+    | conductivity value for both the materials is about the same at 0.04
+    | watts per metre K.
+  p
+    | For 125 metre
+    sup 2
+    |  42 sheets would be required and this would
+    | have to be doubled to 84 sheets for the 200mm thickness.
+  p So the cost would be for DIY&nbsp;- 80&nbsp;&times; &pound;21.1&nbsp;= &pound;1,688.
+  p
+    | If installed by a contractor let us assume &pound;200 again then
+    | installed&nbsp;= &pound;1,888.
+  p
+    | Based on our annual saving of &pound;684 per annum this is a payback of
+    | around 33 months or 2 years 9 months&nbsp;&ndash; a far cry from the B&amp;Q
+    | special deal but using a more natural material.
+  p
+    | An alternative would be to use the 150mm thick sheep wool insulation
+    | at a price of &pound;12.45 per metre
+    sup 2
+    |  which would considerably
+    | reduce the installation costs and the reduced financial saving at the
+    | same time&nbsp;calculated&nbsp;- still very significant.
+  p
+    | I can&rsquo;t find anyone who will subsidise the installation of sheep&apos;s
+    | wool and this includes the insulation company nominated by my energy
+    | supplier&nbsp;&ndash; but all other things being equal I would prefer sheep&apos;s
+    | wool in my loft&nbsp;&ndash; but they are not all equal!
+  p
+    | So depending on the deal the financial payback is anywhere between 2
+    | months and approaching 3 years.
+  p
+    | What about carbon dioxide payback as a direct result of the improved
+    | insulation?
+  p Using a saving of &pound;684.34 per annum for insulating the roof.
+  p
+    | If 4p per kWh is being paid for gas then 684.34/0.04&nbsp;= 17,100 kWh
+    | per annum is saved or
+  dl
+    dt For gas
+    dd
+      | 17,100&nbsp;&times; 0.185&nbsp;= 3,163kg of carbon dioxide or just over
+      | 3 tonne of carbon dioxide per annum.
+    dt For electricity
+    dd
+      | 17,100&nbsp;&times; 0.537&nbsp;= 9,182kg or just over 9 tonne of carbon
+      | dioxide per annum.
+    dt For gas oil
+    dd
+      | 17,100&nbsp;&times; 0.252&nbsp;= 4,309kg or over 4 tonne of carbon
+      | dioxide per annum.
+    dt For fuel oil
+    dd
+      | 17,100&nbsp;&times; 0.268&nbsp;= 4,582kg or over 4.5 tonne of carbon
+      | dioxide per annum.
+  h2 Glazing Improvements
+  p
+    | The financial loss through the single glazing of the house was
+    | calculated at&nbsp;&ndash; 180/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;408.
+  p
+    | The figures above were based on 36 metre
+    sup 2
+    |  of single
+    | glazing&nbsp;&times; U-Value of 5 watts/metre
+    sup 2
+    |  K&nbsp;= 180 as a
+    | proportioned figure.
+  p
+    | The addition of secondary glazing with a 150mm air gap is typically
+    | likely to improve the U-Value around half to 2.5 watts/metre
+    sup 2
+    | K.
+  p
+    | One manufacturer claims that using 4mm low emissivity glass and a
+    | 150mm air gap achieved a U-Value of 1.86 watts/metre
+    sup 2
+    |  K but
+    | we will work with the figure of 2.5.
+  p
+    | The loss would now be 36 metre
+    sup 2
+    |  of secondary
+    | glazing&nbsp;&times; U-Value of 2.5&nbsp;= 90.
+  p
+    | The financial loss after the secondary glazing improvement would now
+    | be 90/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;204 per annum so this is a saving of
+    | &pound;204 per annum.
+  p
+    | So if the addition of the secondary glazing was &pound;2,000 this would be
+    | a payback of around 10 years.
+  p For the carbon dioxide payback per annum:
+  p
+    | If 4p per kWh is being paid for gas and a saving &pound;204 per annum then
+    | 204/0.04&nbsp;= 5,100 kWh per annum is saved.
+  dl
+    dt For gas
+    dd 5,100&nbsp;&times; 0.185&nbsp;= 943kg of carbon dioxide per annum.
+    dt For electricity
+    dd 5,100&nbsp;&times; 0.537&nbsp;= 2739kg of carbon dioxide/annum.
+    dt For gas oil
+    dd 5,100&nbsp;&times; 0.252&nbsp;= 1,285kg of carbon dioxide/annum.
+    dt For fuel oil
+    dd 5,100&nbsp;&times; 0.268&nbsp;= 1,366kg of carbon dioxide/annum.
+  h2 Wall Insulation
+  p
+    | Insulation may be added in the form of external insulation, internal
+    | insulation or cavity wall insulation (assuming the building wall has a
+    | cavity).
+  p The simplest and least costly is cavity wall insulation.
+  p
+    | The financial loss due to heat loss through walls in the example was
+    | calculated as follows:
+  ul
+    li
+      | Walls &ndash; 156 metre
+      sup 2
+      | &nbsp;&times; U-Value of 1.56&nbsp;= 243.36
+    li Walls &ndash; 243.36/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;551
+  p
+    | If 50mm of insulation is added with a conductivity of 0.04 watts per
+    | then the R-Value would be insulation thickness divided by the
+    | insulation conductivity&nbsp;= 0.05/0.04&nbsp;= 1.25 metre
+    sup 2
+    | K per watt.
+  p
+    | If this is added to the resistance of the existing wall which is the
+    | U-Value of 1.56 turned upside down which is 0.64 then the sum of both
+    | resistances&nbsp;&ndash; 0.64&nbsp;+ 1.25&nbsp;= 1.89 metre
+    sup 2
+    |  K per
+    | watt.
+  p
+    | The new U-Value is now 1.89 turned upside down&nbsp;= 0.53 watts per
+    | metre
+    sup 2
+    |  K&nbsp;&ndash; quite an improvement from a figure of 1.56.
+  p
+    | The financial loss now due to heat loss through the insulated walls
+    | is:
+  ul
+    li
+      | Walls &ndash; 156 metre
+      sup 2
+      | &nbsp;&times; U-Value of 0.53&nbsp;= 82.68
+    li Walls &ndash; 82.68/793.36&nbsp;&times; &pound;1,800&nbsp;= &pound;188.00
+  p So this will be a saving of &pound;551&nbsp;- &pound;188&nbsp;= &pound;363.00
+  p
+    | A specialist contractor should not charge much more than this for
+    | the cavity wall insulation so the figure could be recovered in one year
+    | or perhaps 1.5 years at worst.
+  p For the carbon dioxide saving per annum:
+  p
+    | If 4p per kWh is being paid for gas and a saving &pound;363 per annum
+    | then 363/0.04&nbsp;= 9,055 kWh per annum is saved.
+  dl
+    dt For gas
+    dd 9,055&nbsp;&times; 0.185&nbsp;=&nbsp;1,675 kg of carbon dioxide/annum.
+    dt For electricity
+    dd 9,055&nbsp;&times; 0.537&nbsp;= 4,862 kg of carbon dioxide/annum.
+    dt For gas oil
+    dd 9,055&nbsp;&times; 0.252&nbsp;=&nbsp;2,281 kg of carbon dioxide/annum.
+    dt For fuel oil
+    dd 9,055&nbsp;&times; 0.268&nbsp;= 2,426 kg of carbon dioxide/annum.
+  p
+    | For internal and external insulation the installation cost will be
+    | considerably more but the financial payback and carbon dioxide payback
+    | would be similar unless thicker insulation was added than 50mm.
+  p
+    | A specialist builder/insulating contractor would need to survey the
+    | site and quote for the work.
+  h2 Draught Proofing
+  p
+    | In our calculation of proportioning heat loss we allowed 10% for
+    | ventilation or cold air entering the home.
+  p
+    | The UK Building Regulations require that buildings are now much
+    | better sealed than has been the case in the past. So well sealed,
+    | in fact, that fan assisted heat recovery units are used in some houses
+    | such as the Passivhaus in Germany.
+  p
+    | Older buildings are often not well sealed at all, as is the case of
+    | my own property, and likely to have a heat loss even greater than the
+    | 10% assumed in the example above.
+  p
+    | Brushes, foams and sealant may all be used to fill gaps etc. to
+    | minimise the entrance of cold air.
+  p
+    | The Draught Proofing Association represents the major draught
+    | proofing manufacturers and contractors in the UK and as it says on
+    | their web site is one of the most inexpensive yet effective ways of
+    | making the efficient use of energy.
+  p
+    | At the beginning of these figures I assumed &pound;200 per annum of the
+    | energy bill was lost through ventilation or cold air entering the
+    | house. If the leakages were reduced by half and &pound;100 could be
+    | recovered and &pound;100 spent then the financial payback would be 1
+    | year.

@@ -1,0 +1,65 @@
+---
+title: Home
+metadescription: Ambthair Services provides design and consultancy for air conditioning and ventliation projects, specialising in recording studios and other quiet environments.
+---
+extends templates_base.pug
+block pagestyles
+  style(type="text/css")
+    include:clean-css _includes/index.css
+
+block content
+  .jumbotron.jumbotron-fluid#ambthair
+    .container
+      .containertext
+        h1.display-4 Ambthair Services
+        .taglines
+          p.lead Air conditioning design &amp; consultancy
+          p.lead Specialists in studios &amp; low energy systems
+        p: a.btn.btn-primary.btn-lg(href='air_conditioning_consultancy.html' role='button') Learn more
+
+  .container
+    .row
+      .col-md-4.mb-4
+        .card.h-100.border-0
+          .card-body.px-0
+            h5.card-title Consultancy
+            p.card-text Our consultancy service explained from the moment you contact us
+          .card-footer.bg-transparent.px-0
+            a.btn.btn-primary(href='air_conditioning_consultancy.html' role='button') Learn more
+
+      .col-md-4.mb-4
+        .card.h-100.border-0
+          .card-body.px-0
+            h5.card-title Client list
+            p.card-text Our clients are across the UK, Europe and&nbsp;Asia
+          .card-footer.bg-transparent.px-0
+            a.btn.btn-primary(href='ambthair_client_list.html' role='button') View our clients
+
+      .col-md-4.mb-4
+        .card.h-100.border-0
+          .card-body.px-0
+            h5.card-title Contact us
+            p.card-text Get your air conditioning project started
+          .card-footer.bg-transparent.px-0
+            a.btn.btn-primary(href='contact.html' role='button') Contact us
+
+    .row
+
+      .col-lg-4.mb-4
+        .card.h-100.border-0
+          .card-body.px-0
+            h5.card-title Key concepts
+            p.card-text Basic concepts, air conditioning glossary and units of measurement
+          .card-footer.bg-transparent.px-0
+            a.btn.btn-secondary(href='air_conditioning_key_concepts.html' role='button') Read the Q &amp; A
+
+      .col-lg-8.mb-4
+        .card.h-100.border-0
+          .card-body.px-0
+            h5.card-title Air conditioning articles
+            p.card-text Ambthair has provided several articles for building owners and designers
+          .card-footer.bg-transparent.px-0
+            a.btn.btn-secondary(href='air_conditioning_articles.html' role='button') Read our articles
+
+append footer
+  p.text-center.text-white Site created by Rob Hardy.<br>The site was first published in 1995. This is an archive of the original, which was previously published at http://www.pncl.co.uk/~mhardy/ and https://www.ambthair.com
