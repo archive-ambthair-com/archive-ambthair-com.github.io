@@ -3,7 +3,7 @@
 const typesetPlugin = require('eleventy-plugin-typeset');
  
 module.exports = function(eleventyConfig) {
-    // Pass though files to output directory: _site
+    // Pass though files to output directory
 
     // images
     eleventyConfig.addPassthroughCopy("src/assets");
