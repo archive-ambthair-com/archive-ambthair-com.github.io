@@ -11,10 +11,12 @@ A slightly customised version of Bootstrap is used for the site.
 ## Setup
 
 ```bash
+# install exact package versions in package.json. Used node v20
+npm install ci
+
+# install latest matching packages
 npm install
 ```
-
-Deploying uses the `aws` command line. `AWS_PROFILE` should be set with a profile granting access to the bucket.
 
 ## Build and deploy
 
@@ -36,7 +38,7 @@ npm run deploy
 
 ### scripts/create_redirects.js
 
-This writes redirect objects to the s3 bucket for certain files so that they get HTTP redirects.
+This writes redirect objects to the s3 bucket for certain files so that they get HTTP redirects. (This is defunct now)
 
 # Bootstrap
 
