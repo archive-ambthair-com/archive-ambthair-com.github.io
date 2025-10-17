@@ -4,7 +4,7 @@
 
 Article content © 2024 Mike Hardy for Ambthair Services Ltd. 
 
-## Website code and templates
+## Website code
 
 © 2025 Rob Hardy, licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
 
@@ -36,7 +36,7 @@ THE SOFTWARE.
 
 ## Page templates
 
-Page templates use the Modern Business theme, from Start Bootstrap: https://startbootstrap.com/template/modern-business
+Page templates use the Modern Business template from Start Bootstrap: https://startbootstrap.com/template/modern-business
 
 The MIT License (MIT)
 
