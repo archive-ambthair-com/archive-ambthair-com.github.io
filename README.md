@@ -4,10 +4,6 @@ This repository is an archive of a website originally published at www.ambthair.
 
 The site uses eleventy to statically generate the site, bootstrap and pug templates. A slightly customised version of Bootstrap is used for the site.
 
-Article content © 2024 Mike Hardy for Ambthair Services Ltd.
-
-Website code and templates © 2025 Rob Hardy, licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
-
 # Development
 
 ## Setup
@@ -79,4 +75,4 @@ To purge the css run `npm run build:css`
 
 ## Bootstrap templates used for pages
 
-From startbootstrap - templates based on https://startbootstrap.com/templates/modern-business/
+From startbootstrap - templates based on https://startbootstrap.com/template/modern-business/
