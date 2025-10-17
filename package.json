@@ -9,7 +9,7 @@
     "build:css": "postcss 'src/styles/bootstrap.min.css' --output src/styles/bootstrap.purge.min.css",
     "start": "eleventy --input=src --output=docs --formats=pug --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "echo deploy removed as this is in github pages now"
+    "deploy": "echo deploy removed as the site is published on Github Pages now"
   },
   "repository": {
     "type": "git",
