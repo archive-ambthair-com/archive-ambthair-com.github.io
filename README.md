@@ -1,10 +1,12 @@
 # Overview
 
-This is a website originally published at www.ambthair.com, an air conditioning company which was run by my dad, Mike Hardy.  My dad passed away in September 2025. I decided to keep the site online as an archive of his articles.
+This repository is an archive of a website originally published at www.ambthair.com, an air conditioning company which was run by my dad, Mike Hardy.  My dad passed away in September 2025. I decided to keep the site online as an archive of his articles.
 
-The site uses eleventy to statically generate the site. 
+The site uses eleventy to statically generate the site, bootstrap and pug templates. A slightly customised version of Bootstrap is used for the site.
 
-A slightly customised version of Bootstrap is used for the site.
+Article content © 2024 Mike Hardy for Ambthair Services Ltd.
+
+Website code and templates © 2025 Rob Hardy, licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
 
 # Development
 
@@ -31,7 +33,7 @@ npm run build:css
 npm start
 
 # Deploy
-npm run deploy
+npm run deploy # defunct now
 ```
 
 ## Other scripts
